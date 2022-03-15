@@ -1,0 +1,41 @@
+###
+POST http://localhost:8080/api/video HTTP/1.1
+content-type: application/json
+
+{
+    "video": "https://www.youtube.com/watch?v=vptkTFtWOP8&t=533s",
+    "title": "52 datossdrdthjrytuyhdtryjtuk ALUCINANTES de Noruega",
+    "desc": "Lorem ipsum doltrytukhmfgnryj57ityhmfngryj5u7yrjor sit amet, consectetur adipiscing elit. Suspendisse vel vulputate sapien.",
+    "image": "https://images.pexels.com/photos/141876/pexels-photo-141876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+}
+
+
+###
+GET http://localhost:8080/api/videos HTTP/1.1
+
+
+###
+GET http://localhost:8080/api/video/622b7247465a0936b073faba HTTP/1.1
+
+
+###
+PUT http://localhost:8080/api/video/622b7247465a0936b073faba HTTP/1.1
+content-type: application/json
+
+{
+    "video": "https://www.youtube.com/watch?v=H1Qs-t6pLxE",
+    "title": "I BUILT a MEGA VILLAGE in HARDCORE MINECRAFT",
+    "desc": " Vivamus id consectetur arcu. Morbi molestie condimentum tortor, quis luctus diam volutpat eu.",
+    "image": "https://assets.spartangeek.com/cc/descargar-mods-para-minecraft-1.16.jpg"
+}
+
+
+###
+DELETE http://localhost:8080/api/video/622b76a6f503b31046fbe83b HTTP/1.1
+
+
+
+
+
+
+
